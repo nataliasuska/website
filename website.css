@@ -36,7 +36,6 @@ a {
 }
 
 
-/* Side navigation links */
 .sidenav a {
     color: rgb(245, 227, 208);
     padding: 16px;
@@ -44,13 +43,11 @@ a {
     display: block;
   }
   
-  /* Change color on hover */
   .sidenav a:hover {
     background-color: rgb(245, 227, 208);
     color: darkred;
   }
   
-  /* Style the content */
   .content {
     margin-left: 200px;
     padding-left: 20px;
