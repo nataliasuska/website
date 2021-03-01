@@ -1,5 +1,10 @@
+{
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+  }
+
 body {
-    background-color: rgb(245, 227, 208);
+    margin: 0;
 }
 h1 {
     color: darkred;
@@ -30,3 +35,34 @@ p {
 a {
     color: brown;
 }
+
+
+.topnav {
+    overflow: hidden;
+    background-color: darkred;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(245, 227, 208);
+    color: black;
+  }
+  
+  .content {
+    background-color: rgb(245, 227, 208);
+    padding: 10px;
+    height: 200px; 
+  }
+  
+  .footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
