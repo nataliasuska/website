@@ -1,6 +1,5 @@
 {
     box-sizing: border-box;
-    font-family: Verdana, sans-serif;
   }
 
 body {
@@ -37,28 +36,22 @@ a {
 }
 
 
-.topnav {
-    overflow: hidden;
-    background-color: darkred;
-  }
-  
-  .topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
+/* Side navigation links */
+.sidenav a {
+    color: rgb(245, 227, 208);
+    padding: 16px;
     text-decoration: none;
+    display: block;
   }
   
-  .topnav a:hover {
+  /* Change color on hover */
+  .sidenav a:hover {
     background-color: rgb(245, 227, 208);
-    color: black;
+    color: darkred;
   }
   
+  /* Style the content */
   .content {
-    background-color: rgb(245, 227, 208);
-  }
-  
-  .footer {
-    background-color: #f1f1f1;
+    margin-left: 200px;
+    padding-left: 20px;
   }
